@@ -1,4 +1,59 @@
 nav ul
 {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li
+{
+    text-align: center;
+}
+
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    transition-duration: 200ms;
+}
+
+nav ul li a:hover
+{
+    color: darkblue;
+}
+
+header
+{
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+    padding: 8px;
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main
+{
+    margin:2em;
+}
+
+main section
+{
+    background-color: lightgray;
+    padding: 1em;
+}
+
+footer
+{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
