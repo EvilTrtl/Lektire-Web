@@ -10,6 +10,7 @@ nav ul
 nav ul li
 {
     text-align: center;
+    padding:  0em 1em;
 }
 
 nav ul li a
@@ -56,4 +57,20 @@ footer
     background-color: black;
     color: white;
     text-align: center;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 2px solid;
 }
