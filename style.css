@@ -86,6 +86,22 @@ section
     flex-direction: column;
 }
 
+section a
+{
+    display: flex;
+    justify-content: center;
+}
+
+section a img
+{
+    transition-duration: 200ms;
+}
+
+section a img:hover
+{
+    transform: scale(1.2);
+}
+
 table
 {
     margin: 2rem 4rem;
