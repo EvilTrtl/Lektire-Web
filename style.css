@@ -79,6 +79,8 @@ footer
     background-color: black;
     color: white;
     text-align: center;
+
+    
 }
 
 section
@@ -103,6 +105,11 @@ section a img
     transition-duration: 200ms;
 }
 
+section img
+{
+    margin: 0 auto;
+}
+
 section a img:hover
 {
     transform: scale(1.2);
@@ -114,7 +121,13 @@ table
     border-collapse: collapse;
 }
 
-td
+td,th
 {
+    padding: 6px;
     border: 2px solid;
+}
+
+th
+{
+    font-size: 14pt;
 }
